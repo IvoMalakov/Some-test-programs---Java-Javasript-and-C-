@@ -1,0 +1,10 @@
+package proben;
+
+public class ivo {
+
+	public static void main(String[] args) {
+		System.out.println("kuv si ti be tupak");
+
+	}
+
+}

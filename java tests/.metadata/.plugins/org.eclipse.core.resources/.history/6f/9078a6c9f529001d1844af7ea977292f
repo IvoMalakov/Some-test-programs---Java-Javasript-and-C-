@@ -1,0 +1,28 @@
+package proben;
+
+import java.text.MessageFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class ivo {
+	
+	private static List<Integer> sortArrayList(List<Integer> inputArray) {
+		List<Integer> result = new ArrayList<Integer>();
+		return result;
+	}
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String[] inputLine = scanner.nextLine().split("\\s+");
+		List<Integer> inputList = new ArrayList<Integer>();
+		
+		for (String string : inputLine) {
+			Integer number = Integer.parseInt(string);
+			inputList.add(number);
+		}
+		
+		//System.out.println(Arrays.toString(list.toArray()));
+	}
+}

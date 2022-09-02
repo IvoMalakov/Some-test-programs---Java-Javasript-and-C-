@@ -1,0 +1,43 @@
+package proben;
+
+import java.io.*;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class ivo {
+	
+	private static Integer sumOfDigit(int n) {
+		int sum = 0;
+		
+		while (n > 0) {
+			sum += n % 10;
+			n = Math.floorDiv(n,10);
+		}
+		return sum;
+	}
+	
+	private static ArrayList<Integer> sortArray(ArrayList<Integer> inputList) {
+		ArrayList<Integer> outputList = new ArrayList<Integer>();
+		
+		return outputList;
+	}
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String[] inputLine = scanner.nextLine().split("\\s+");
+		ArrayList<Integer> inputList = new ArrayList<Integer>();
+		
+		for (String string : inputLine) {
+			Integer number = Integer.parseInt(string);
+			inputList.add(number);
+		}
+		
+		ArrayList<Integer> outputList = sortArray(inputList);
+
+		System.out.println(Arrays.toString(outputList.toArray()));
+	}
+}

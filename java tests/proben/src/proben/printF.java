@@ -1,0 +1,56 @@
+package proben;
+
+import java.util.Scanner;
+
+public class printF {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        System.out.println("================================");
+        for(int i=0;i<3;i++){
+        	String[] inputLine = sc.nextLine().split("\\s+");
+        	
+        	char[] inputString = inputLine[0].toCharArray();
+        	
+        	StringBuilder sb1 = new StringBuilder();
+        	
+        	for(char c : inputString) {
+        		sb1.append(c);
+        	}
+        	
+        	int sbLength = sb1.length();
+        	
+        	if (sbLength < 15) {
+        		int count = sbLength;
+        		
+        		while (count < 15) {
+        			sb1.append(" ");
+        			count++;
+        		}
+        	}
+        	
+        	char[] inputNumber = inputLine[1].toCharArray();
+        	int inputNumberLength = inputNumber.length;
+        	StringBuilder sb2 = new StringBuilder();
+        	
+        	if (inputNumberLength < 3) {
+        		int count = inputNumberLength;
+        		
+        		while (count < 3) {
+        			sb2.append("0");
+        			count++;
+        		}
+        	}
+        	
+        	sb2.append(inputLine[1]);      	
+        	sb1.append(sb2);
+        	System.out.println(sb1.toString());
+        	
+        }
+        System.out.println("================================");
+        
+        sc.close();
+
+	}
+
+}

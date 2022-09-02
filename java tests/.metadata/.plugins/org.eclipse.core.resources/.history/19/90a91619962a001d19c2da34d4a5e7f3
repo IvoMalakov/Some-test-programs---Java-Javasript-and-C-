@@ -1,0 +1,10 @@
+package proben;
+
+public class arraySort2way {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
