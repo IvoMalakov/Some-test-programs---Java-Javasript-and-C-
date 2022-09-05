@@ -1,0 +1,32 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body #wrapper {
+    margin: 8px;
+}
+
+h1 {
+    font-family:Arial-Black;
+    font-size: 36px;
+    width:620px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body #wrapper button {
+  margin: 356px;
+  border: none;
+  padding: 17px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
