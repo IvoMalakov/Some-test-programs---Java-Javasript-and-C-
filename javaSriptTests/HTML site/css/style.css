@@ -3,6 +3,14 @@ padding: 0;
 margin: 0;
 }
 
+.second {
+    margin: 44px 227px 47px 146px;
+    font-size: 30px;
+    font-family: Arial-Black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 body #wrapper {
     margin: 8px;
 }
@@ -11,9 +19,17 @@ h1 {
     font-family:Arial-Black;
     font-size: 36px;
     width:620px;
-    margin: 0 auto;
+    margin: 17px auto 32px 102px;
     text-align: center;
     text-transform: uppercase;
+}
+
+#wrapper2 h1 {
+    letter-spacing: 34px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #2069B5;
 }
 
 body #wrapper button {
