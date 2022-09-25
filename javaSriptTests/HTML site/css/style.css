@@ -25,6 +25,8 @@ h1 {
 }
 
 #wrapper2 h1 {
+    margin: 20px 35px 20px 125px;
+    padding-left: 240px;
     letter-spacing: 34px;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
