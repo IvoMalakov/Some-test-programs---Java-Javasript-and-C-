@@ -18,12 +18,10 @@ $(document).ready(function () {
         $('#test2').append('<span>' + element + ' ' + '</span>');
     });
 
-
-    //This function dosn't work propertly. I dont know why?
-    ivo.forEach(number => {
-        ivo[number] = 333 * number;
-    })
-
+    ivo.map(function(number, index) {
+        ivo[index] = number * 333;
+    });
+    
     ivo.forEach(element2 => {
         $('#test3').append('<span>' + element2 + ' ' + '</span>');
     });

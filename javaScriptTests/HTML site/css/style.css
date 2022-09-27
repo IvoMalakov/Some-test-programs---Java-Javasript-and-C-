@@ -15,6 +15,16 @@ body #wrapper {
     margin: 8px;
 }
 
+body #wrapper .testPersons {
+    color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 300px;
+
+}
+
 h1 {
     font-family:Arial-Black;
     font-size: 36px;
