@@ -9,12 +9,13 @@ $(document).ready(function() {
         this.age = age;
     }
 
-    person.prototype.fullName = function() {
-        return this.firstName + " " + this.lastName;
+    person.prototype.getInfo = function() {
+        let info = this.firstName + " " + this.lastName + " is " + this.age + " years old";
+        return info;
     }
 
-    let Pesho = new person('Petur', 'Stoianov', 34);
-    let peshoFullName = Pesho.fullName;
+    const Pesho = new person('Petur', 'Stoianov', 34);
+    let peshoFullName = Pesho.getInfo();
 
 
     //The result is not right

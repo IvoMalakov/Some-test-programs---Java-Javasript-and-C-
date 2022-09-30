@@ -8,12 +8,13 @@ $(document).ready(function () {
     this.age = age;
   }
 
-  person.prototype.fullName = function () {
-    return this.firstName + " " + this.lastName;
+  person.prototype.getInfo = function () {
+    var info = this.firstName + " " + this.lastName + " is " + this.age + " years old";
+    return info;
   };
 
   var Pesho = new person('Petur', 'Stoianov', 34);
-  var peshoFullName = Pesho.fullName; //The result is not right
+  var peshoFullName = Pesho.getInfo(); //The result is not right
 
   $('#person').append('<span>' + peshoFullName + '</span>');
 });
