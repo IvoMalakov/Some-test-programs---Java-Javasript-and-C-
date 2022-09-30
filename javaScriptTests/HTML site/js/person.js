@@ -18,6 +18,5 @@ $(document).ready(function() {
     let peshoFullName = Pesho.getInfo();
 
 
-    //The result is not right
     $('#person').append('<span>' + peshoFullName + '</span>');
 });

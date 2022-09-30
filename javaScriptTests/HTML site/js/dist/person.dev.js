@@ -14,7 +14,6 @@ $(document).ready(function () {
   };
 
   var Pesho = new person('Petur', 'Stoianov', 34);
-  var peshoFullName = Pesho.getInfo(); //The result is not right
-
+  var peshoFullName = Pesho.getInfo();
   $('#person').append('<span>' + peshoFullName + '</span>');
 });
