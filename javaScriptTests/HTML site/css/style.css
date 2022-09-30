@@ -11,6 +11,19 @@ margin: 0;
     letter-spacing: 2px;
 }
 
+.third {
+    margin: 50px 70px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.third_page {
+    padding: 40px 200px 40px 150px;
+    color: peru;
+}
+
 body #wrapper {
     margin: 8px;
 }

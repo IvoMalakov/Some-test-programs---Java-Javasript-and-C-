@@ -1,0 +1,31 @@
+#wrapper3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    .purple {
+        color: purple;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .vsColor {
+        color: #00FA9A;
+    }
+
+    header {
+        margin: 1px 30px;
+
+        h1 {
+            margin: 40px 20px;
+            padding: 30px;
+            font-size: xx-large;
+        }
+    }
+
+    .square {
+        font-size: 42px;
+    }
+}
