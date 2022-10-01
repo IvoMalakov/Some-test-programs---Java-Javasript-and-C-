@@ -3,26 +3,35 @@
 <html lang="en">
     <head>
         <title>Testov sait na Ivo Malakov</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
         <link type="text/css" rel="stylesheet" href="./css/style.css" />
         <link type="text/css" rel="stylesheet" href="./css/proben.css" />
         
         <script type="text/javascript" 
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
+
             
         <script type="text/javascript" src="./js/ivo.js" defer> </script>
         <script type="text/javascript" src="./js/person.js" defer></script>
     </head>
     
     <body>
-        <div id="wrapper">
-            <h1>Tova e saita na Ivo Malakov</h1>
-            <div id="person" class="test testPersons"></div>
-            <a class="second" href="./second_page.html">Go to the second page</a>
-            <div class="third">
-                <a class="third third_page" href="./third_page.html">Go tho the third page</a>
+        <div id="wrapper" class="container">
+            <div class="row">
+                <div class="col-4 jumbotron">
+                    <h1>Tova e saita na Ivo Malakov</h1>
+                    <div id="person" class="test testPersons"></div>
+                </div>
+            <div class="row">
+                <a class="second" href="./second_page.html">Go to the second page</a>
+                <div class="third col-7">
+                    <a class="third third_page" href="./third_page.html">Go tho the third page</a>
+                </div>
             </div>
-            <button onclick="addPTag()" type="submit" id="Submit" class="blue">Submit</button>
-
+            <button onclick="addPTag()" type="submit" id="Submit" class="btn btn-primary blue">
+                Submit</button>
+            </div>
         </div>
     </body>
 </html>
