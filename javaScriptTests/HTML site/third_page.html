@@ -2,7 +2,9 @@
 
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Third Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
         <link type="text/css" rel="stylesheet" href="./css/style.css" />
         <link type="text/css" rel="stylesheet" href="./css/proben.css" />
         <link type="text/css" rel="stylesheet" href="./css/classes.css" />
@@ -20,8 +22,34 @@
 
             <main>
                 <div id="class" class="test vsColor square"></div>
+                <div id="form-div" class="forms">
+                    <form method="post" action="#" id="form1">
+                        <label for="userName">User name</label>
+                        <input type="text" 
+                               id="userName"
+                               class="form-control form-group"
+                               name="userName"
+                               placeholder="Enter your user name here"
+                               requiered = "requiered" />
+                        <label for="password">Password</label>
+                        <input type="password"
+                               id="password"
+                               class="form-control form-group"
+                               name="password"
+                               placeholder="Enter your password here"
+                               required = "requiered"
+                               pattern=".{6,100}" /> 
+                        <br />
+                        <button type="submit" 
+                        class="btn btn-primary"
+                        id="registerUser">Login user
+                        </button>
+
+                    </form>
+                </div>
             </main> 
         </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
         <script type="text/javascript" src="./js/classes.js" defer></script>
     </body>
 </html>
